@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: white;
+  font-family: sans-serif;
+}
+
+video {
+  transform: scaleX(-1); /* mirror local video */
+}
